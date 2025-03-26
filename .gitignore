@@ -1,0 +1,79 @@
+# ========== macOS / Системные файлы ==========
+
+.DS_Store
+*.swp
+.Spotlight-V100
+.Trashes
+*.swp
+*.lock
+*.tmp
+
+# ========== Xcode ==========
+
+# Рабочие настройки пользователя (открытые файлы, breakpoints, состояние интерфейса и т.д.)
+*.xcuserdatad/
+*.xcuserdata/
+*.xcscmblueprint
+*.xcscmblueprint*
+
+# Файл состояния, который часто меняется автоматически
+*.xcuserstate
+
+# Локальные настройки проекта (в том числе состояние репозитория)
+*.xccheckout
+
+# Логи и промежуточные файлы
+*.xcactivitylog
+*.xcplugindata
+*.xccoverage
+*.xcworkspace/xcshareddata/*.xcworkspacedata
+
+# Папка с временными файлами компиляции
+DerivedData/
+build/
+
+# ========== Swift Package Manager ==========
+
+# Папка с собранными бинарниками и кешем
+/.build/
+*.swiftpm
+
+# В некоторых случаях стоит игнорировать Package.resolved,
+# но если вы хотите фиксировать версии пакетов, то его можно оставить
+# Package.resolved
+
+# ========== CocoaPods ==========
+
+# Папка Pods и файл блокировки (если не хотите фиксировать версии)
+Pods/
+# Podfile.lock
+
+# ========== Carthage ==========
+
+Carthage/Build/
+Carthage/Checkouts/
+
+# ========== Fastlane ==========
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# ========== Core Data (runtime-база) ==========
+
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# ========== Другие временные/служебные файлы ==========
+
+*.xcodeproj/*~
+*.moved-aside
+*.xcworkspace/*~
+*.orig
+
+# Если у вас есть отдельная папка для результирующих билд-артефактов,
+# которые не должны храниться в репозитории, добавьте её сюда.
+# Например:
+# /App_Artifacts/
